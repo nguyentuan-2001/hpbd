@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- <title>Happy Birthday!!! :)</title> -->
+    <title>Happy Birthday!!! :)</title>
     <link
       href="https://fonts.googleapis.com/css?family=Work+Sans:300,400"
       rel="stylesheet"
@@ -12,7 +12,7 @@
     <link
       rel="shortcut icon"
       type="image/png"
-      href="https://scontent.fhan4-1.fna.fbcdn.net/v/t39.30808-6/437853093_3766655696937654_3330709977399965520_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHJ_AB_NXhL4QqoKtl-rLBg5gqd1dqWIrDmCp3V2pYisPUUjmwe1MXsfGvJ7KTBUGnblbejTAwoxid0-VFfR87n&_nc_ohc=fHNl43KDvR8Q7kNvgFhgTMQ&_nc_ht=scontent.fhan4-1.fna&oh=00_AYAp4jx7w8qrmEYNfXzBFxV8csTHC2hf7mTE3QPHwlwdmg&oe=66784C02"
+      href="img/thao_1.jpg"
     />
     <link rel="stylesheet" href="style/style.css" />
   </head>
@@ -24,11 +24,9 @@
           <span data-node-name="greeting"></span>
           <span data-node-name="name"></span>
         </h1>
-        <img
-          src="https://media.tenor.com/zydDVVIAdtIAAAAi/brown-bear-cony-bunny.gif"
-          alt=""
-          width="200px"
-        />
+       <div style="display: flex; justify-content: center;">
+        <div class="tenor-gif-embed" data-postid="14659678" data-share-method="host" data-aspect-ratio="1.16788" data-width="200px"><a href="https://tenor.com/view/brown-bear-cony-bunny-hey-you-text-phone-gif-14659678" style="">Brown Bear Cony Bunny Sticker</a>from <a href="https://tenor.com/search/brown+bear-stickers">Brown Bear Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+       </div>
         <p class="two" data-node-name="greetingText">
           I really like your name btw!
         </p>
@@ -80,7 +78,9 @@
 
           <div class="container-text">
             <span data-title="HelloWorld!" class="text">
-              <h5 data-node-name="wishText">Click here</h5>
+              <a href="card.html">
+                <h5 data-node-name="wishText">Click here</h5>
+              </a>
             </span>
           </div>
         </div>
@@ -88,7 +88,7 @@
 
       <div class="seven">
         <div class="baloons">
-          <!-- <img src="img/ballon2.svg" alt="" />
+          <img src="https://s.net.vn/V5sy" alt=""  class="heart-img"  />
           <img src="img/ballon1.svg" alt="" />
           <img src="img/ballon3.svg" alt="" />
           <img src="img/ballon1.svg" alt="" />
@@ -105,22 +105,13 @@
           <img src="img/ballon2.svg" alt="" />
           <img src="img/ballon3.svg" alt="" />
           <img src="img/ballon1.svg" alt="" />
-          <img src="img/ballon2.svg" alt="" />
-          <img src="img/ballon1.svg" alt="" />
-          <img src="img/ballon3.svg" alt="" />
-          <img src="img/ballon3.svg" alt="" />
-          <img src="img/ballon1.svg" alt="" />
-          <img src="img/ballon2.svg" alt="" />
-          <img src="img/ballon3.svg" alt="" />
-          <img src="img/ballon2.svg" alt="" />
-          <img src="img/ballon1.svg" alt="" />
           <img src="img/ballon3.svg" alt="" />
           <img src="img/ballon2.svg" alt="" />
           <img src="img/ballon3.svg" alt="" />
           <img src="img/ballon1.svg" alt="" />
           <img src="img/ballon2.svg" alt="" />
           <img src="img/ballon1.svg" alt="" />
-          <img src="img/ballon3.svg" alt="" /> -->
+          <img src="img/ballon3.svg" alt="" />
         </div>
       </div>
       <div class="eight">
@@ -162,6 +153,14 @@
         <p class="last-smile" data-node-name="outroSmiley">:)</p> -->
       </div>
     </div>
+    <audio id="music-player" controls autoplay preload="auto" >
+      <source src="audio/mhbd.mp3" type="audio/mpeg">
+      Your browser does not support the audio element
+    </audio>
+    <script>
+      // Tự động phát nhạc khi trang web được tải
+      document.getElementById('music-player').play();
+    </script>
   </body>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>

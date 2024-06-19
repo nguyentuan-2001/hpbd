@@ -126,7 +126,7 @@ body {
   position: absolute;
   width: 80px;
   top: -35px;
-  left: 37%;
+  left: 41.5%;
   /* transform: scale(0.1); */
 }
 
@@ -235,13 +235,13 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 37%;
+    left: 40%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 37%;
+    left: 33%;
   }
 }
 
@@ -296,4 +296,34 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+}
+
+.heart-img {
+  width: 50px; 
+  height: 50px;
+  background-image: url('https://s.net.vn/V5sy');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.heart-img:before,
+.heart-img:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 70%;
+  background: #ff0000;
+  border-radius: 50px 50px 0 0;
+  transform-origin: left bottom;
+}
+
+.heart-img:before {
+  transform: rotate(-45deg);
+}
+
+.heart-img:after {
+  transform: rotate(45deg);
 }
