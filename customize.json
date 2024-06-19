@@ -1,11 +1,11 @@
 {
-  "greeting": "Hiya",
-  "name": "Lydia",
-  "greetingText": "I really like your name btw!",
-  "wishText": "May the js.prototypes always be with you! ;)",
-  "imagePath": "img/lydia2.png",
-  "text1": "It's your birthday!!! :D",
-  "textInChatBox": "Happy birthday to you!! Yeee! Many many happy blah...",
+  "greeting": "Hey",
+  "name": "",
+  "greetingText": "I have a few things I would like to say to you!!",
+  "wishText": "Click here",
+  "imagePath": "https://scontent.fhan3-5.fna.fbcdn.net/v/t39.30808-6/440938390_3778155699120987_5830930811493920570_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEhaVPwQP0ygJhlsbJuIlHBRIVEVFGqohJEhURUUaqiEpja0GrKkuYRo6FxJOxXW6-s4vCf9ajdbZMHbNNhurUY&_nc_ohc=yvAHsgnCl-UQ7kNvgF5gDSQ&_nc_ht=scontent.fhan3-5.fna&oh=00_AYAmUC5cKo4GMJCDHvY7ae63XJ9LzrkXzAU30oGC8BrDhQ&oe=66786411",
+  "text1": "Today is your birthday!!! :D",
+  "textInChatBox": "For my best friend's birthday, what should I give as a gift? bla bla...",
   "sendButtonLabel": "Send",
   "text2": "That's what I was going to do.",
   "text3": "But then I stopped.",
@@ -16,8 +16,5 @@
   "smiley": ":)",
   "bigTextPart1": "S",
   "bigTextPart2": "O",
-  "wishHeading": "Happy Birthday!",
-  "outroText": "Okay, now come back and tell me if you liked it.",
-  "replayText": "Or click, if you want to watch it again.",
-  "outroSmiley": ":)"
+  "wishHeading": "Happy Birthday!"
 }
